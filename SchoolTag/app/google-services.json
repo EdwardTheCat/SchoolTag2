@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "279773686055",
+    "firebase_url": "https://dbproject-3a80a.firebaseio.com",
+    "project_id": "dbproject-3a80a",
+    "storage_bucket": "dbproject-3a80a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279773686055:android:bd87c16a78fce10e",
+        "android_client_info": {
+          "package_name": "com.example.edward.badgerfragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279773686055-38ipirbie9b3mdgsknl5nt80b3vgim12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnQGPFxlvlUecWRxh4BNs08JhqDAXou1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279773686055-38ipirbie9b3mdgsknl5nt80b3vgim12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279773686055:android:64a364e781f1fa78",
+        "android_client_info": {
+          "package_name": "com.ynov.db"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279773686055-38ipirbie9b3mdgsknl5nt80b3vgim12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnQGPFxlvlUecWRxh4BNs08JhqDAXou1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279773686055-38ipirbie9b3mdgsknl5nt80b3vgim12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279773686055:android:243fc5ca4b91428b",
+        "android_client_info": {
+          "package_name": "com.ynov.schooltag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279773686055-38ipirbie9b3mdgsknl5nt80b3vgim12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnQGPFxlvlUecWRxh4BNs08JhqDAXou1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279773686055-38ipirbie9b3mdgsknl5nt80b3vgim12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

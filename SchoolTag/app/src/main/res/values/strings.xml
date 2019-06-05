@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SchoolTag</string>
+    <string name="title_badger">Badger</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_delays">Delays</string>
+    <string-array name="course">
+        <item>Course Kotlin</item>
+        <item>Course .Net</item>
+        <item>Course IOT</item>
+        <item>YDays</item>
+    </string-array>
+</resources>
