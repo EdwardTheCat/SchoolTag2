@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
+import com.ynov.schooltag.course.CourseFragment
 import com.ynov.schooltag.delay.Delay
 import com.ynov.schooltag.delay.DelaysFragment
 import com.ynov.schooltag.tag.TagFragment
@@ -15,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     var user : User = User.create()
     var delaysfrag : DelaysFragment = DelaysFragment.newInstance()
     var tagfrag : TagFragment = TagFragment.newInstance()
+    var coursefrag : CourseFragment = CourseFragment.newInstance()
     var activeFrag : Fragment? = null
 
     // creer une variable pour setter le fragment actif.
@@ -28,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.navigation_schedule -> {
                 // message.setText(R.string.title_schedule)
-                replaceFragment(delaysfrag)
+                replaceFragment(coursefrag)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_delays -> {
@@ -51,6 +53,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         user = intent.extras.getParcelable("user")
         name.text = user.firstname
+        replaceFragment(tagfrag)
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
 

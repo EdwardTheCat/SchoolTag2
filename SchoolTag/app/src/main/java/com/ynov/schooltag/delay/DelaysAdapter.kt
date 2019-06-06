@@ -10,12 +10,12 @@ import kotlinx.android.synthetic.main.item_delays.view.*
 
 class DelaysAdapter(var items: Array<Delay>) : RecyclerView.Adapter<DelaysAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val lineView = LayoutInflater.from(parent?.context).inflate(R.layout.item_delays, parent, false)
+        val lineView = LayoutInflater.from(parent.context).inflate(R.layout.item_delays, parent, false)
         return ViewHolder(lineView)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder?.bindDelays(items[position])
+        holder.bindDelays(items[position])
     }
 
     fun ViewGroup.inflate(@LayoutRes layoutRes: Int, attachToRoot:
