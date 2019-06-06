@@ -20,6 +20,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    androidExtensions {
+        experimental = true
+    }
 }
 
 dependencies {
@@ -33,6 +36,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.google.firebase:firebase-database:17.0.0'
+    implementation "org.jetbrains.anko:anko-common:$anko_version"
 }
 
 apply plugin: 'com.google.gms.google-services'

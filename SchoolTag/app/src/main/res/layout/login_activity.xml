@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ynov.schooltag.LoginActivity">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email_tb"
+            app:layout_constraintBottom_toTopOf="@+id/password_tb" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/email_label"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/password_tb"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:hint="@string/password_label"/>
+    <Button
+            android:text="@string/login_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_btn" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/password_tb" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"/>
+</android.support.constraint.ConstraintLayout>

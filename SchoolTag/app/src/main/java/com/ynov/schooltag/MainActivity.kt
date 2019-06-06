@@ -6,10 +6,12 @@ import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
 import com.ynov.schooltag.delay.Delay
 import com.ynov.schooltag.delay.DelaysFragment
+import com.ynov.schooltag.user.User
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    var user : User = User.create()
     var delaysfrag : DelaysFragment = DelaysFragment.newInstance()
     var activeFrag : Fragment?= null
 
@@ -55,6 +57,5 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .replace(R.id.frameLayout, frag)
             .commit()
-
     }
 }

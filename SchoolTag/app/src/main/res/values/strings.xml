@@ -9,4 +9,9 @@
         <item>Course IOT</item>
         <item>YDays</item>
     </string-array>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="bad_password">Bad Password! Try again.</string>
+    <string name="login_label">Login</string>
+    <string name="bad_email">Sorry, email not found.</string>
 </resources>
