@@ -8,7 +8,7 @@ Features :
 - Schedule
 - Delays
 
-Login is mage with firebase authentification.
+Login is made with firebase authentification.
 
 Data are get from firebase realtime database.
 We have used bottomMenu, activity, fragment, adapter:recyclerView, viewholder, data class, constraintLayout... anko
