@@ -8,6 +8,8 @@ Features :
 - Schedule
 - Delays
 
+Authentification is mage with firebase authentification.
+
 Data are get from firebase realtime database.
 We have used bottomMenu, activity, fragment, adapter:recyclerView, viewholder, data class, constraintLayout... anko
 
