@@ -14,10 +14,11 @@
             android:inputType="textEmailAddress"
             android:ems="10"
             android:id="@+id/email_tb"
-            app:layout_constraintBottom_toTopOf="@+id/password_tb" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/password_tb"
             android:layout_marginBottom="8dp"
-            android:hint="@string/email_label"/>
+            android:hint="@string/email_label" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

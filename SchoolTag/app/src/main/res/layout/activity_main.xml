@@ -10,7 +10,7 @@
 
     <TextView android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="Fabien"
+              android:text=""
               android:textColor="@color/colorPrimaryDark"
               android:id="@+id/name"
               app:layout_constraintTop_toTopOf="parent"
